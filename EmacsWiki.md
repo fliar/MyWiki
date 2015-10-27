@@ -1,2 +1,2 @@
 #Emacs
-**insert a tab:** *<ctrl>-q tab*
+**insert a tab:** *ctrl-q tab*
