@@ -1,4 +1,7 @@
 #Ubuntu Wiki
+**Command**
+*change owner*
+sudo chown user:group file
 **OpenSSH**
 ~~~
 sudo apt-get update
