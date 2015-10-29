@@ -7,4 +7,5 @@
 3. m-x list-packages
    install go-mode
    install flycheck
-3. go get github.com/rogpeppe/godef   
+3. config dns
+4. go get github.com/rogpeppe/godef   
