@@ -27,7 +27,15 @@ in /etc/apt/apt.conf
 Acquire::http::Proxy "http://111.111.111.111:11111";
 ~~~
 *dns config*<br>
-in  /etc/resolv.conf, add
+temp: in  /etc/resolv.conf, add
 ~~~
 nameserver 114.114.114.114
+~~~
+permanent: in /etc/network/interfaces
+~~~
+dns-nameservers X.X.X.X Y.Y.Y.Y Z.Z.Z.Z
+~~~
+then run
+~~~
+sudo ifdown eth0 && sudo ifup eth0
 ~~~

@@ -5,7 +5,11 @@
    add proxy
    add elpa/melpa url
 3. m-x list-packages
-   install go-mode
-   install flycheck
-3. config dns
-4. go get github.com/rogpeppe/godef   
+   go-mode
+   flycheck
+   company
+   company-go
+4. config dns
+5. go get 
+   github.com/rogpeppe/godef
+   github.com/nsf/gocode

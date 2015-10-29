@@ -21,3 +21,7 @@
 ~~~
 (setq-default make-backup-files nil)
 ~~~
+**package ops**
+m-x list-packages<br>
+mark i for install, d for delete<br>
+x to execute
