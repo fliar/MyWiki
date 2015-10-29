@@ -2,7 +2,7 @@
 **insert a tab:** *ctrl-q tab*
 **set proxy:**
 ~~~
-(setq url-proxy-services '(("http" . "proxy.wormholes.xyz:41865")))
+(setq url-proxy-services '(("http" . "111.111.111.111:11111")))
 ~~~
 **melpa and gnu packages**
 ~~~
