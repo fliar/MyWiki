@@ -1,23 +1,28 @@
 #Ubuntu Wiki
-**Command**
+**Command**<br>
 *change owner*
-sudo chown user:group file
-**OpenSSH**
+sudo chown user:group file<br>
+**OpenSSH**<br>
 ~~~
 sudo apt-get update
 sudo apt-get install openssh-server
 sudo emacs /etc/ssh/sshd_config
 sudo /etc/init.d/ssh restart
 ~~~
-**Environment**
-*Golang*
+**Environment**<br>
+*Golang*<br>
 in ~/.bashrc
 ~~~
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 ~~~
-*256 color terminal*
+*256 color terminal*<br>
 in ~/.bashrc
 ~~~
 export TERM=xterm-256color
+~~~
+*apt-get use proxy*<br>
+in /etc/apt/apt.conf
+~~~
+Acquire::http::Proxy "http://111.111.111.111:11111";
 ~~~
