@@ -10,6 +10,10 @@
                          ("melpa" . "http://melpa.org/packages/")))
 ~~~
 **bind keys**
+~~~
 (global-set-key (kbd "<f12>") 'other-window)
+~~~
 **disable auto save**
+~~~
 (setq-default make-backup-files nil)
+~~~
