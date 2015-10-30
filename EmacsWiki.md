@@ -25,3 +25,14 @@
 m-x list-packages<br>
 mark i for install, d for delete<br>
 x to execute
+**return to shell**
+~~~
+c-z
+~~~
+*return emacs*
+~~~
+fg
+~~~
+~~~
+%emacs
+~~~
