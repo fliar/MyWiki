@@ -36,3 +36,8 @@ fg
 ~~~
 %emacs
 ~~~
+**enter set to newline + indent
+~~~
+(add-hook 'go-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
+~~~
