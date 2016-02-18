@@ -39,3 +39,8 @@ then run
 ~~~
 sudo ifdown eth0 && sudo ifup eth0
 ~~~
+*remove kai & ming font*<br>
+~~~
+sudo apt-get purge fonts-arphic-ukai 
+sudo apt-get purge fonts-arphic-uming 
+~~~
